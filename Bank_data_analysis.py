@@ -1,21 +1,5 @@
 
 
-Agenda = {
-    1:"Importing what I want",
-    2:"Loading our data",
-    3:"Lets look at age column",
-    4:"The main question",
-    5:"CONCLUSION OF DATA ANALYSIS",
-    6:"Data Preprocessing",
-    7:"CONCLUSION OF DATA PREPROCESSING",
-    8:"Data Preprocessing for Building Models",
-    9:"Saving our data"
-}
-
-Agenda
-
-
-# In[2]:
 
 
 # importing some lib
@@ -111,9 +95,6 @@ for i in trans.columns:
 # In[19]:
 
 
-#The main question is what are the most characteristic features of the people who respond to the campaign and register for deposits?
-#Now we will try to dig into that data in order to extract accurate answers to this question. 
-#The answer may not be complete, but I will try to answer it accurately.
 
 trans["balance"].max(), trans["balance"].min()
 
@@ -331,16 +312,6 @@ data.head()
 bin_values = np.arange(start = 0 , stop = 100 , step = 1)
 
 data["age"].hist(bins=bin_values)
-
-
-# In[66]:
-
-
-
-
-
-# In[67]:
-
 
 
 
